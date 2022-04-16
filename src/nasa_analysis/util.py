@@ -62,7 +62,7 @@ class Recording:
         resampled_scipy = librosa.resample(self.as_scipy, orig_sr=self.sample_rate, target_sr=target_sr)
         
         # return a copy
-        return Recording(self, sample_rate=target_sr, resampled_scipy)
+        return Recording(self, sample_rate=target_sr, as_scipy=resampled_scipy)
     
     
     def get_bytes(self):
