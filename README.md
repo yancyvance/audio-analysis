@@ -1,3 +1,5 @@
-# Example Package
+# Utility Functions for Audio Analysis
 
-This is a simple example package. You can use this.
+This package incorporates all functions created and used for the audio analysis. Install it using pip:
+
+`pip install git+https://github.com/yancyvance/audio-analysis.git`
